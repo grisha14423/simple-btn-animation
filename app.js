@@ -18,5 +18,7 @@ buttons.forEach((button) => {
     span.style.left = xInside + "px";
 
     this.appendChild(span);
+
+    setTimeout(() => span.remove(), 500);
   });
 });
